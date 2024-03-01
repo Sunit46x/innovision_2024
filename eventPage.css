@@ -182,4 +182,26 @@
     transition: all .3s ease-in-out;
     margin: 5px;
 }
+.nav-links {
+    text-align: center;
+  }
 
+  .nav-btn {
+    margin: 5px;
+  }
+
+  .community-btn {
+    display: block; /* Ensures the button is displayed as a block element */
+  }
+
+  /* Media query for screen width <= 411px */
+  @media (max-width: 350px) {
+    .community-btn {
+      display: none; /* Hides the button when screen width is 411px or less */
+    }
+  }
+  @media (max-width: 633px) {
+    .nav-text {
+      display: none; /* Hide the "INNOVISION" text when screen width is below 633px */
+    }
+  }
