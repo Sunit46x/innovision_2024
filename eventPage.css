@@ -126,8 +126,8 @@
 }
 .name
         {
-            font-size: 100px;
-            font-family:monospace;
+            font-size: 85px;
+            font-family:Arial, Helvetica, sans-serif;
             font-weight: 400;
             text-align: center;
             -webkit-font-smoothing: antialiased;
@@ -137,6 +137,11 @@
             cursor: default;
             color: #c866ff;
         }
+        @media only screen and (max-width: 600px) {
+            .name {
+              font-size: 45px; /* Adjusted font size for mobile devices */
+            }
+          }
         
             .dept {
                 text-align: center;
