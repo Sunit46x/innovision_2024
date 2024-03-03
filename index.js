@@ -7,7 +7,9 @@ function delayed_open() {
 
 }
 
+
 function randRange(min, max) {
+
     return Math.random() * (max - min) + min;
 }
 function mapRange(value, low1, high1, low2, high2) {
@@ -41,8 +43,8 @@ var IS_HIGH_RES_AND_MOBILE = (IS_HIGH_RES.matches && IS_MOBILE);
 var Star = /** @class */ (function () {
     function Star(container) {
         var size = container[0], depth = container[1];
-        this.FORWARD_SPEED = 350;
-        this.SIDEWAYS_SPEED = 100;
+        this.FORWARD_SPEED = 400;
+        this.SIDEWAYS_SPEED = 230;
         if (IS_HIGH_RES_AND_MOBILE) {
             this.FORWARD_SPEED *= 1;
             this.SIDEWAYS_SPEED *= 1;
