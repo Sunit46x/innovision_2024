@@ -207,3 +207,18 @@
 .aa {
     color: #0077b5; /* Adjust icon color on hover */
   }
+  @media (max-width: 985px)
+  {
+.navbar {
+    justify-content: space-evenly;
+    backdrop-filter: blur(20px);
+    margin-top: 10px;
+}
+  }
+  .section-head {
+    font-size: 3rem;
+    color: #7444ff;
+    padding-top: 150px;
+    font-family: Inter, sans-serif;
+    text-align: center;
+}
