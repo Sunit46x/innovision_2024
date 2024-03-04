@@ -65,6 +65,7 @@ var Star = /** @class */ (function () {
         this.x = randRange(-size, size);
         this.px = this.x;
     };
+   
     Star.prototype.resetY = function () {
         var _a = this.container, size = _a[0], _ = _a[1];
         this.y = randRange(-size, size);
