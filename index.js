@@ -43,7 +43,7 @@ var IS_HIGH_RES_AND_MOBILE = (IS_HIGH_RES.matches && IS_MOBILE);
 var Star = /** @class */ (function () {
     function Star(container) {
         var size = container[0], depth = container[1];
-        this.FORWARD_SPEED = 400;
+        this.FORWARD_SPEED = 350;
         this.SIDEWAYS_SPEED = 230;
         if (IS_HIGH_RES_AND_MOBILE) {
             this.FORWARD_SPEED *= 1;
