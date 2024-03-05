@@ -450,9 +450,4 @@ function setup() {
     }, true);
 }
 window.onload = setup();
-window.addEventListener("load",()=>
-{
-    const loader = document.querySelector(".loader");
-    loader.classList.add("loader-hidden");
-})
 
