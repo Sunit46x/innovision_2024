@@ -1078,3 +1078,9 @@ html,
       transform: rotate3d(1, 1, 1, 220deg)  scale(.95);
     }
   }
+ .landing-page-content>.Silver-sponsors {
+            margin: 0 20px;
+            padding: 8px;
+            font-size: 21px;
+            text-align: center;
+        }
