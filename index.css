@@ -266,7 +266,7 @@ html,
 
         #section1 {
             width: 100vw;
-            height: 98vh;
+            height: 99vh;
             position: relative;
             z-index: 999;
             color: #fff;
@@ -518,6 +518,7 @@ html,
             font-family: myfont;
         }
         .footer-text>h1 {
+            margin: 10px;
             color: #fff;
             font-size: 4rem;
             font-family: Ailerons, Helvetica, Arial, sans-serif;
@@ -545,6 +546,7 @@ html,
         }
 
         .footer-text>p {
+            margin: 0;
             color: #fff;
             font-size: 3rem;
             font-weight: 100;
@@ -608,7 +610,7 @@ html,
             font-size: 18px;
             /* color: #fff; */
             font-weight: bold;
-            background-color: #ffffff;
+            background-color: #000000;
             font-family: Arial, Helvetica, sans-serif;
             border-radius: 6px;
 
@@ -626,17 +628,23 @@ html,
             border-radius: 20px;
             margin-top: 5px;
             margin-left: 10px;
+            /* margin-bottom: 10px; */
         }
 
         .send-mail:hover {
             background-color:#524d4d;
         }
 
+        .co-ordinator-div>h4 {
+            margin-left: 35px;
+            margin-bottom: 10px;
+        }
+
         .address{
-            max-width: 600px;
+            max-width: 540px;
+            margin: 0 20px;
         }
         .sponsors {
-            width:33%;
             padding: 0 0 18px 18px;
         }
 
@@ -652,7 +660,8 @@ html,
 
         .sponsors-img {
             margin: 14px 20px 0;
-            height: 280px;
+            height: 380px;
+            width: 250px;
         }
         
         @media (max-width: 985px)
@@ -669,6 +678,10 @@ html,
             .mid-footer-titles {
                 font-size: 20px;
                 margin-top: 60px;
+            }
+
+            .co-ordinator-div>h4 {
+                margin-left: 10px;
             }
         }
 
@@ -707,7 +720,11 @@ html,
             padding: 0;
         }
 
-        @media(max-width: 769px) {
+        @media(max-width: 800px) {
+
+            .landing-page-content>h1 {
+                font-size: 55px;
+            }
 
             /* PC styles */
             .footer {
@@ -722,14 +739,15 @@ html,
         }
 
         @media (max-width:600px) {
+
             .landing-page-content>h2 {
                 font-size: 24px;
             }
 
             .landing-page-content>.sponsors {
-                width: 400px;
+                width: 300px;
                 margin-top: 20px;
-                font-size: 20px;
+                font-size: 22px;
                 text-align: center;
                 margin: 5px 10px;
             }
@@ -744,6 +762,14 @@ html,
 
             .navbar>.nav-links>.nav-btn {
                 width: 90px;
+            }
+
+            .footer-text>h1 {
+                font-size: 3.5rem;
+            }
+
+            .footer-text>p {
+                font-size: 2.5rem;
             }
         }
 
