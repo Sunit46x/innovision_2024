@@ -400,13 +400,21 @@ html,
             cursor: default;
         }
 
-        .landing-page-content>.sponsors {
-            width: 700px;
-            margin-top: 20px;
-            font-size: 35px;
-            text-align: center;
-            margin: 5px;
-        }
+       .landing-page-content>.sponsors {
+    width: 700px;
+    margin-top: 20px;
+    font-size: 35px;
+    text-align: center;
+    /* cursor: default; */
+}
+ @media (max-width: 985px)
+  {
+.landing-page-content>.sponsors {
+    margin-top: 20px;
+    font-size: 25px;
+    width: 300px;
+}
+  }
 
         .landing-page-content>.golden-sponsors {
             margin: 0 20px;
@@ -414,6 +422,14 @@ html,
             font-size: 30px;
             text-align: center;
         }
+ @media (max-width: 985px)
+  {
+.landing-page-content>.golden-sponsors {
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+}
+  }
 
         .copyright {
             position: fixed;
