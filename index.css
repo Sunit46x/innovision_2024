@@ -635,8 +635,17 @@ html,
         }
 
         .sponsors-img {
-            margin: 10px 10px 0;
+            margin: 14px 20px 0;
             height: 280px;
+        }
+        
+        @media (max-width: 985px)
+        {
+            .sponsors-img {
+                margin: 14px -50px 0;
+                height: 280px;
+            }
+            
         }
 
         @media (max-width: 985px)
