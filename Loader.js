@@ -12,5 +12,5 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
         hideLoader();
         showContent();
-    }, 2500);
+    }, 1700);
 });
