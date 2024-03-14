@@ -1161,18 +1161,22 @@ html,
     text-decoration: none;
     cursor: pointer;
   }
-  @media only screen and (max-width: 600px) {
-    .modal {
-      padding: 10px;
-    }
-
-    @media only screen and (max-width: 600px) {
-    .modal {
-      padding: 10px;
-      width: 300px;
-      height: 150px;
-      border-radius: 15px 60px !important;
-      border: 2px solid white;
-    }
-    
+ @media only screen and (max-width: 600px) {
+  .modal {
+    padding: 10px;
+    width: auto; /* Adjust width as needed for responsiveness */
+    height: auto; /* Adjust height as needed for responsiveness */
+    border-radius: 15px 60px !important;
+    border: 2px solid white;
   }
+
+  .modal-content {
+    width: 100%; /* Adjust the width to occupy the available space */
+    height: auto; /* Adjust height as needed for responsiveness */
+    border-radius: 15px 60px !important;
+    border: 2px solid white;
+  }
+}
+
+
+   
