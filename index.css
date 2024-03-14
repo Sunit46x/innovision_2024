@@ -1166,12 +1166,13 @@ html,
       padding: 10px;
     }
 
-    .modal-content {
-      max-width: 90%;
+    @media only screen and (max-width: 600px) {
+    .modal {
+      padding: 10px;
+      width: 600px;
+      height: 366px;
+      border-radius: 15px 60px !important;
+      border: 2px solid white;
     }
-    .modal-content {
-        width: 500px;
-        height: auto;
-        display: block;
-    }
+    
   }
