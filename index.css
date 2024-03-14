@@ -1161,7 +1161,7 @@ html,
     text-decoration: none;
     cursor: pointer;
   }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .modal {
       padding: 10px;
     }
@@ -1170,7 +1170,7 @@ html,
       max-width: 90%;
     }
     .modal-content {
-        width: 300px;
+        width: 230px;
     height: 150px;
         display: block;
               border: 2px solid white;
@@ -1180,8 +1180,8 @@ html,
     color: #ffffff;
     position: absolute;
     top: 10px;
-    right: 35px;
-    font-size: 32px;
+    right: 10px;
+    font-size: 25px;
     font-weight: bold;
     
   }
