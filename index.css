@@ -1170,8 +1170,8 @@ html,
       max-width: 90%;
     }
     .modal-content {
-        width: 230px;
-    height: 150px;
+        width: 400px;
+    height: 200px;
         display: block;
               border: 2px solid white;
              border-radius: 15px 60px !important;
