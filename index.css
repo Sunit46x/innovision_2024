@@ -623,10 +623,10 @@ button {
   margin-bottom: 10px;
 }
 
-.address {
-  max-width: 540px;
-  margin: 0 20px;
-}
+
+.address{
+            max-width: 480px;
+        }
 .sponsors {
   padding: 0 0 18px 18px;
 }
