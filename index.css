@@ -641,11 +641,11 @@ button {
   margin: 15px;
 }
 
-.sponsors-img {
-  margin: 14px 20px 0;
-  height: 380px;
-  width: 250px;
-}
+  .sponsors-img {
+            margin: -1px 6px 15px -90px;
+            height: 456px;
+            width: 392px;
+        }
 
 @media (max-width: 985px) {
   .sponsors-img {
